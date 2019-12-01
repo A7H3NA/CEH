@@ -84,7 +84,7 @@ http://chall.all.mn/button/
 → go to http://chall.all.mn/button/button2.php
 
 ````
-Noooo! You just clicked to wrong button and you let the dogs out.(失敗)
+Noooo! You just clicked to wrong button and you let the dogs out.(failed)
 ````
 
 http://chall.all.mn/button/
