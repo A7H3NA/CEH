@@ -1,16 +1,16 @@
-# CTF19 - ALL.MN Writeup
+#CTF19 - ALL.MN Writeup
 
 Participated in the GW during the GW. 21 questions out of 33 are 2400 points.
 Write a simple Writup.
 
-## Free point
+##Free point
 Sainy Check. The problem statement contains a flag.
 ###### ALLMN{Y3S_TH1S_1S_Y0UR_FLAG_27SJAL}
 
-## Discord
+##Discord
 After opening the Discord, a flag is described in #flag.
 ###### ALLMN{TH4NKS_F0R_J01N1NG_US_2JKLPO}
 
-## Saturn.MN
+##Saturn.MN
 After accessing http://saturn.mn/p/425, the flag is described in the "үнэй дата" tab.
 ###### ALLMN{W3LC0M3_T0_S4TURN_MN}
