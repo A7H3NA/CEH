@@ -26,7 +26,7 @@ It seems that about 4 are registered.
 
 Among them, when you look at game-git.git, flag is added to [View Changes] of [Package Actions] one day ago.
 Check the added flag posts.
-[https://aur.archlinux.org/cgit/aur.git/commit/?h=game-git:embed:cite]
+[https://aur.archlinux.org/cgit/aur.git/commit/?h=game-git]
 
 
 ###### flag{w0w-have_fun_in-g4m3!}
