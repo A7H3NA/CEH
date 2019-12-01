@@ -3,32 +3,32 @@
 Participated in the GW during the GW. 21 questions out of 33 are 2400 points.
 Write a simple Writup.
 
-## Free point
+### Free point
 Sainy Check. The problem statement contains a flag.
 ###### ALLMN{Y3S_TH1S_1S_Y0UR_FLAG_27SJAL}
 
 
-## Discord
+### Discord
 After opening the Discord, a flag is described in #flag.
 ###### ALLMN{TH4NKS_F0R_J01N1NG_US_2JKLPO}
 
 
-## Saturn.MN
+### Saturn.MN
 After accessing http://saturn.mn/p/425, the flag is described in the "үнэй дата" tab.
 ###### ALLMN{W3LC0M3_T0_S4TURN_MN}
 
-## Easy Math
+### Easy Math
 Problem of calculating the least common multiple (LCM) and the greatest common divisor (GCD) when a = 128 and b = 56. Just do it.
 ###### ALLMN{896_8}
 
 
-## Funny Website
+### Funny Website
 When I access the specified URL, I can see part of the flag commented out.
 There is also a flag commented out in style.css and function.js, so connect them.
 ###### ALLMN{W3LL_Y0U_C4N_1NSP3CT_M3_I28DJA}
 
 
-## Robots
+### Robots
 Check robots.txt from the problem statement.
 
 ````
@@ -41,33 +41,33 @@ Since there is allmnflag.php, access and check the flag.
 ###### ALLMN{W3B_R0B0TS_TXT_7DHJ9E}
 
 
-## Question & Answer
+### Question & Answer
 rot24 the contents of answer.txt → rot8 "eqra_cpf_rcuvg_vjku".
 Submit the "copy_and_paste_this" that came out to http://chall.all.mn/asuult/index.php?q=1 and check the flag.
 ###### ALLMN{Y3S_Y0U_D1D_1T_4Y7JKP}
 
 
-## What is this?
+### What is this?
 Analyze it because it is brainf*ck.
 ###### ALLMN{1_L0V3_BR41N_F4CK_3IQKAP}
 
 
-## Damn!
+### Damn!
 Analyze it because it is JSF*CK.
 ###### ALLMN{f4ckjs}
 
 
-## Find that word
+### Find that word
 Among the many files there is a description of flag in 76.txt.
 ###### ALLMN{GR3P_1S_S1mple}
 
 
-## Doesn't contain K integer
+### Doesn't contain K integer
 Calculate the integer number excluding 3 among the integers from 1 to 281939942. Since a similar problem is found when examining with google, solve it accordingly.
 ###### ALLMN{120597740}
 
 
-## SQL
+### SQL
 The login screen is displayed. The flag is displayed below.
 
 ````
@@ -78,7 +78,7 @@ password=<Any>
 ###### ALLMN{W0W_Y0U_D1D_SQLi} 
 
 
-## Button
+### Button
 http://chall.all.mn/button/
 → go to http://chall.all.mn/button/button1.php
 → go to http://chall.all.mn/button/button2.php
@@ -99,25 +99,25 @@ ALLMN{S0M30N3_L3T_TH3_D0GS_0UT_1ODJWK}
 ###### ALLMN{S0M30N3_L3T_TH3_D0GS_0UT_1ODJWK}
 
 
-## My favorite number
+### My favorite number
 Looking at the main function with gdb-peda etc. 0x4d1 (1233) is compared with the input value.Therefore, when 1233 is input, the flag is displayed. (The flag will also be 1233.)
 ###### ALLMN{1233}
 
 
-## ROCK 
+### ROCK 
 Parse the password attached to the PDF. I solved using john the Ripper.
 The password for the PDF is 551731.
 ###### ALLMN{Y0U_DID_IT!}
 
 
-## Windows XP
+### Windows XP
 There is a specification to access from WindowsXP and IE from the problem statement.
 Change User-Agent to Windows XP and IE and access it.
 Example. User-Agent: Mozilla / 5.0 (MSIE 7.0; Windows NT 5.1; Win64; x64; rv: 66.0)]
 ###### ALLMN{CH4NG3_TH3_US3R_AG3NT_WD8KKA}
 
 
-## Important files
+### Important files
 Extract files from images with binwalk -e.
 Among the extracted files, wow.txt has the following description.
 
@@ -129,7 +129,7 @@ After that rot13 and check the flag.
 ###### ALLMN{W3_L0V3_M0NG0L1A_2HND8J}
 
 
-## My Computer
+### My Computer
 Confirm the image file with the strings command.
 
 ````
@@ -158,7 +158,7 @@ Among the above, {H3X_F4N} is a flag. Is the dummy at the bottom?
 ###### ALLMN{H3X_F4N}
 
 
-## What is your name?
+### What is your name?
 The entered name is compared with the value, and the flag is displayed if the name is correct.
 
 ````
@@ -180,7 +180,7 @@ Sain uu? ALLMN{H3LL0_D4MN_D4N1EL_W73JFL}
 ###### ALLMN{H3LL0_D4MN_D4N1EL_W73JFL}
 
 
-## President's panel
+### President's panel
 Set the following to cockie from the provided sources.
 
 ````
@@ -204,7 +204,7 @@ You have entered. Flag: ALLMN{C00K13_1S_WH4T_Y0U_N33D_D6AJSD}
 ###### ALLMN{C00K13_1S_WH4T_Y0U_N33D_D6AJSD}
 
 
-## Admin panel
+### Admin panel
 Crack the provided shadow file with john the Ripper .
 You can see that the root user's password is "hellokitty".
 Execute login and enter root / hellokitty to check the flag.
@@ -228,6 +228,26 @@ ALLMN{G00DJ0B_Y0U_AR3_T00_G00D_SHD8WK}
 * Button 2 (in the first place unknown)]
 
 
+## Following on May 12, 2019
+I learned about New password and Button 2. Thank you @biggay.
+
+### New password
+The password reset screen is displayed. The entered password is sent with a POST request.
+The entered password is saved in cockie.
+Change the action of the source file with the password saved in cockie and change the destination to success.php.
+
+````
+action = "" → action = "success.php"
+````
+
+When RESET is pressed on the first screen in this state, Flag is displayed.
+
+
+### Button 2
+One POST process is performed after two GET processes.
+Add botton to the source file to POST to botton4.php in the third process, and when you post to botton4.php, Flag is displayed.
+
+
 ## General
-・I was not good at reverse problem, so it was good to be able to study how to use gdb-peda and IDA on such a simple problem like this one. 
-・Since the problem of the web question is not solved, I would like to review it including how to solve it.]
+* I was not good at reverse problem, so it was good to be able to study how to use gdb-peda and IDA on such a simple problem like this one. 
+* Since the problem of the web question is not solved, I would like to review it including how to solve it.]
