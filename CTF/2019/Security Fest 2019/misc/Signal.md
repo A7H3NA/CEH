@@ -3,7 +3,7 @@
 I participated in the team. Since it was held on weekdays as a private question, I wrote Writeup.  
 
 
-### Signal (misc)
+## Signal (misc)
 
 ### Question
 
