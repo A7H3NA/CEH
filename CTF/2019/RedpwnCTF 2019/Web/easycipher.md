@@ -171,7 +171,7 @@ if (calcMD5(prompt('What is the password')) === 'aa42b234cb05915716c1434058fe1ae
 Check the condition string below.
 'aa42b234cb05915716c1434058fe1aee16c14340cb059157aa42b234'
 
-→ Sorted in 8-character blocks.
+→ Sorted in 8-character blocks.  
 ①aa42b234  
 ②cb059157  
 ③16c14340  
