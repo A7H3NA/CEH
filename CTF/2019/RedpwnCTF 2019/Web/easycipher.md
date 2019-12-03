@@ -172,10 +172,10 @@ Check the condition string below.
 'aa42b234cb05915716c1434058fe1aee16c14340cb059157aa42b234'
 
 → Sorted in 8-character blocks.
-①aa42b234
-②cb059157
-③16c14340
-④58fe1aee
+①aa42b234  
+②cb059157  
+③16c14340  
+④58fe1aee  
 ⇒It is arranged in the order of ①②③④③②①.
 
 If you check the md5 hash of ①②③④ with the online decoder, it becomes “shazam”.
