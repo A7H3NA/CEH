@@ -8,6 +8,9 @@ Written by: NotDeGhost
 This is an easy cipher? I heard it's broken.
 ````
 
+
+## Answer
+
 Access the specified URL.
 The source obfuscated with javascript is displayed and you are prompted for a password.
 
