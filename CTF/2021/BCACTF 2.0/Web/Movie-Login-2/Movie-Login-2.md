@@ -19,7 +19,7 @@ Check the denylist maybe?
 
 ## answer
 
-Same SQLinjection problem as Movie-Login-1. The following characters are filtered.
+Same SQLinjection problem as Movie-Login-1. The following values listed in denylist.json will be filtered.
 
 `1,0,/,=`
 
