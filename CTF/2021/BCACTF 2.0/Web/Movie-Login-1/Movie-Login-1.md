@@ -24,4 +24,5 @@ There is a sql injection vulnerability, which allows users to bypass login authe
 ' or 'a' = 'a' -- 
 ```
 
+
 ###### bcactf{s0_y0u_f04nd_th3_fl13r?}
