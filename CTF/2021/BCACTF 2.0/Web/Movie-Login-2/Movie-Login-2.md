@@ -32,8 +32,7 @@ Same SQLinjection problem as Movie-Login-1. The following values listed in denyl
 
 The = is replaced by the like clause.
 
-````
-' or 'a' like 'a' -- can be used.
-````
+
+`' or 'a' like 'a' -- `can be used.
 
 ###### bcactf{h0w_d1d_y0u_g3t_h3r3_th1s_t1m3?!?}
