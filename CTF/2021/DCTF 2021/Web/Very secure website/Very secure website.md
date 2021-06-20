@@ -1,4 +1,4 @@
-# ghast(Web) - Writeup
+# Very secure website(Web) - Writeup
 
 ## description
 
