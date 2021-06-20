@@ -21,7 +21,9 @@ When you access the specified URL, a screen for entering your user name and pass
 There is a sql injection vulnerability, which allows users to bypass login authentication by entering the following parameters and log in to the screen with the flag.
 
 ````
+
 ' or 'a' = 'a' -- 
+
 ```
 
 
