@@ -3,6 +3,9 @@
 ## description
 
 ````
+web/NRC
+goose
+
 Find the flag :)
 
 no-right-click.hsc.tf
