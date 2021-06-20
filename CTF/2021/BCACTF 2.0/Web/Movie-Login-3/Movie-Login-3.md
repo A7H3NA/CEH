@@ -39,7 +39,7 @@ The number of characters to be filtered listed in denylist.json has increased.
 ]
 ````
 
-As with Movie-Login-2, you can log in with ' or 'a' like 'a' --.
+As with Movie-Login-2, you can log in with `' or 'a' like 'a' -- `.
 
 
 ###### bcactf{gu3ss_th3r3s_n0_st0pp1ng_y0u!}
