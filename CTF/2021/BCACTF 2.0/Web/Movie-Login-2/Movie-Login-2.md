@@ -21,7 +21,14 @@ Check the denylist maybe?
 
 Same SQLinjection problem as Movie-Login-1. The following values listed in denylist.json will be filtered.
 
-`1,0,/,=`
+````
+[
+    "1",
+    "0",
+    "/",
+    "="
+]
+````
 
 The = is replaced by the like clause.
 
