@@ -21,7 +21,7 @@ When you log in with the credentials in the problem statement, you will see the 
 ![001-1](https://user-images.githubusercontent.com/45488828/122660833-7feb0700-d1bf-11eb-9299-bdae4404086c.jpg)
 ![002-1](https://user-images.githubusercontent.com/45488828/122660885-fdaf1280-d1bf-11eb-8eef-fb6b2a234dc2.jpg)
 
-The login ID and user name are managed by the coockie value, which seems to be rewritable.
+The login ID and user name are managed by the cookie value, which seems to be rewritable.
 
 userData = j%3A%7B%22userID%22%3A%22972%22%2C%22username%22%3A%22kupatergent%22%7D
 
