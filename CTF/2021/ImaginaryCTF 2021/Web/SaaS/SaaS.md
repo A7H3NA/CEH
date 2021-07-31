@@ -33,5 +33,8 @@ If you check the behavior while switching input characters, you will find the fo
 
 ・The cat command cannot be used, so substitute the strings or echo command.
 
-・You cannot use flag.txt, so substitute a regular expression for *.txt.
+・You cannot use flag.txt, so substitute a regular expression for `*.txt.`
 
+![SaaS_003-1.jpg](https://github.com/A7H3NA/CEH/blob/master/CTF/2021/ImaginaryCTF%202021/Web/SaaS/SaaS_003-1.jpg)
+
+###### flag : ictf{:roocu:roocu:roocu:roocu:roocu:roocursion:rsion:rsion:rsion:rsion:rsion:_473fc2d1}
